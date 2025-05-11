@@ -9,5 +9,13 @@
     "baseColor": "neutral",
     "cssVariables": true,
     "prefix": ""
-  }
+  },
+  "aliases": {
+    "components": "app/components",
+    "utils": "app/lib/utils",
+    "ui": "app/components/ui",
+    "lib": "app/lib",
+    "hooks": "app/hooks"
+  },
+  "iconLibrary": "lucide"
 }
