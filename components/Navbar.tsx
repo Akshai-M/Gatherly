@@ -18,10 +18,10 @@ function Navbar() {
         <p className="text-[26px] font-extrabold text-white max-sm:hidden"></p>
       </Link>
       <div className="flex-between gap-5">
-         <SignedIn>
-              <UserButton />
-            </SignedIn>
-      <MobileNav/>
+        <SignedIn>
+          <UserButton />
+        </SignedIn>
+        <MobileNav />
       </div>
     </nav>
   );
